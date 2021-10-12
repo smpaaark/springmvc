@@ -96,7 +96,7 @@ public class MappingController {
      * consumes="*\/*"
      * MediaType.APPLICATION_JSON_VALUE
      */
-    @PostMapping(value = "/mapping-consume", consumes = MediaType.APPLICATION_JSON.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/mapping-consume", consumes = MediaType.APPLICATION_JSON_VALUE)
     public String mappingConsumes() {
         log.info("mappingConsumes");
         return "ok";
